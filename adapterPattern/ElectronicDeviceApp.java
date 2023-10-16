@@ -5,7 +5,7 @@ public class ElectronicDeviceApp {
     public static void main(String[] args){
 
         /*
-            Aeron Red R. Celajes
+           Aeron Red R. Celajes
             3BSCS-1
             Lab Assignment 6 Adapter Pattern
         */
