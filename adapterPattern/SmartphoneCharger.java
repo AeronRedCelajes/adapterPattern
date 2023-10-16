@@ -2,6 +2,6 @@ package adapterPattern;
 
 public class SmartphoneCharger {
     public String chargePhone(){
-        return "Smartphone is charging.";
+        return "Smartphone is charging...";
     }
 }
