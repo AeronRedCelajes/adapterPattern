@@ -33,3 +33,4 @@ You are developing an application that helps users manage and control various el
 </ul>
 
 ## Class Diagram
+![UML Class Diagram adapterPattern](https://github.com/AeronRedCelajes/adapterPattern/assets/142370807/609a19fe-c670-4d14-abd2-63bf3974f0d1)
