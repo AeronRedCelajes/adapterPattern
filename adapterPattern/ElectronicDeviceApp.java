@@ -9,10 +9,12 @@ public class ElectronicDeviceApp {
             Lab Assignment 6 Adapter Pattern
         */
 
+        //instantiate all the devices
         Laptop laptop = new Laptop();
         Refrigerator refrigerator = new Refrigerator();
         SmartphoneCharger smartphoneCharger = new SmartphoneCharger();
 
+        //instantiate all the specific power outlets depending on the device
         PowerOutlet laptopOutlet = new LaptopAdapter(laptop);
         PowerOutlet refrigeratorOutlet = new RefrigeratorAdapter(refrigerator);
         PowerOutlet smartphoneChargerOutlet = new SmartphoneAdapter(smartphoneCharger);
