@@ -19,7 +19,7 @@ public class ElectronicDeviceApp {
         PowerOutlet refrigeratorOutlet = new RefrigeratorAdapter(refrigerator);
         PowerOutlet smartphoneChargerOutlet = new SmartphoneAdapter(smartphoneCharger);
 
-        // This is where the devices are plug into the power outlets
+        //this is where the devices are plug into the power outlets
         System.out.println(laptopOutlet.plugIn());
         System.out.println(refrigeratorOutlet.plugIn());
         System.out.println(smartphoneChargerOutlet.plugIn());
