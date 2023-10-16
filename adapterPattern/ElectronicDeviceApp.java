@@ -3,6 +3,12 @@ package adapterPattern;
 public class ElectronicDeviceApp {
 
     public static void main(String[] args){
+
+        /*  Aeron Red R. Celajes
+            3BSCS-1
+            Lab Assignment 6 Adapter Pattern
+        */
+
         Laptop laptop = new Laptop();
         Refrigerator refrigerator = new Refrigerator();
         SmartphoneCharger smartphoneCharger = new SmartphoneCharger();
